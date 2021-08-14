@@ -1,0 +1,44 @@
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outputDiv {
+    /* padding: 5px; */
+    margin-bottom: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 0 10px 1px rgb(202, 202, 202);
+    overflow: hidden;
+    /*  */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.settingsDiv {
+    /* marginTop: '20px', backgroundColor: '#eee', padding: '10px', borderRadius: "5px" */
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgb(202, 202, 202);
+}
+
+.itemDiv {
+    background-color: rgb(211, 211, 211);
+    /* border-bottom: 1px solid grey; */
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.description{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
